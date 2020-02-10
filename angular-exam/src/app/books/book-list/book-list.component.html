@@ -1,0 +1,10 @@
+Book list
+<br><br>
+
+<div *ngFor="let newspaper of newspapers">
+    {{newspaper.name}}
+</div>
+<br>
+
+<app-book *ngFor="let book of books" [model] = "book"></app-book>
+
